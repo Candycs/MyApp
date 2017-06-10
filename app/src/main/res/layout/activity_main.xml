@@ -75,14 +75,14 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="72dp"
-            android:layout_marginStart="72dp"
             android:text="ข้อมูลเพิ่มเติม"
-            android:layout_marginTop="18dp"
+            android:background="@color/colorPrimary"
+            android:onClick="ShowText"
             android:layout_below="@+id/textView"
-            android:layout_alignLeft="@+id/imageView2"
-            android:layout_alignStart="@+id/imageView2"
-            android:onClick="ShowText" />
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2"
+            android:layout_marginRight="80dp"
+            android:layout_marginEnd="80dp" />
 
     </RelativeLayout>
 
